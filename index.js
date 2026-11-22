@@ -143,7 +143,7 @@ const Preloader = /** @constructor */ function () { // eslint-disable-line no-un
 			done: false,
 		};
 		const compressed = file.endsWith('.wasm');
-		return fetch(compressed ? file + '.gz' : file.endsWith('.pck') ? file + '?v=51' : file).then(function (response) {
+		return fetch(compressed ? file + '.gz' : file.endsWith('.pck') ? file + '?v=52' : file).then(function (response) {
 			if (!response.ok) {
 				return Promise.reject(new Error(`Failed loading file '${file}'`));
 			}
