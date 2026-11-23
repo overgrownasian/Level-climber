@@ -4,7 +4,7 @@
   const storageKey = "level-climber.web-diagnostics.v1";
   const logLimit = 64;
   const heartbeatMs = 4800;
-  const modes = ["title", "run", "paused", "dead", "settings", "shop", "classes", "scores", "checkpoints", "loadout"];
+  const modes = ["title", "run", "paused", "recovery", "dead", "settings", "shop", "classes", "scores", "checkpoints", "loadout"];
   const causes = ["spikes", "acid", "fire", "dart", "pendulum", "slime", "bat", "mimic", "retired", "wipe"];
   const errorReasons = ["out-of-memory", "network", "wasm-abort", "context-lost", "resource-error", "script-error", "unknown"];
   const navigationTypes = ["navigate", "reload", "back_forward", "prerender", "unknown"];
