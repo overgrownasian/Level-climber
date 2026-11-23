@@ -145,12 +145,12 @@ body {
 		<script src="web_diagnostics.js?v=1"></script>
 		<script src="web_recovery.js?v=1"></script>
 		<script src="web_audio.js?v=7"></script>
-		<script id="game-engine" src="index.js?v=53"></script>
+		<script id="game-engine" src="index.js?v=54"></script>
 		<script>
 const diagnostics = window.levelClimberDiagnostics;
 const engineUrl = document.getElementById('game-engine').getAttribute('src');
 diagnostics?.record('build', { version: new URL(engineUrl, document.baseURI).searchParams.get('v') || 'local' });
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":1348852,"index.wasm":9436640},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":1349364,"index.wasm":9436640},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
